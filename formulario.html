@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Formulário</title>
+   <p>Qual seu nome?</p>
+   <input id="fNome" name="text" value="" type="text">
+   <p>Quantos anos você tem?</p>
+   <input id="fIdade" name="text" value="" type="number">
+   
+   <p>Qual linguagem de programação você está aprendendo??</p>
+   <input id="fLinguagem" name="text" value="" type="text">
+   <button onclick="enviar()">Confirmar</button>
+   
+
+   <script type="text/javascript">
+    function enviar(){
+        var nome = document.getElementById("fNome").value;
+        var idade= document.getElementById("fIdade").value;
+        var linguagem= document.getElementById("fLinguagem").value;
+        alert("Olá, seu nome é " + nome + ", tem " + idade + " anos e está aprendendo " + linguagem);
+    }
+   </script>
+
+ </head>
+</html>
+
+
+</html>
